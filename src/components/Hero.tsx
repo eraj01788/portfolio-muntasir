@@ -1,8 +1,8 @@
 import React from "react";
-import { 
-  ArrowRight, 
-  Download, 
-  Mail, 
+import {
+  ArrowRight,
+  Download,
+  Mail,
   MapPin
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./ui/Icons";
@@ -21,10 +21,10 @@ export const Hero: React.FC = () => {
     <section className="relative min-h-[92vh] lg:min-h-screen flex items-center justify-center pt-32 pb-24 lg:pt-40 lg:pb-36 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Hero Content */}
           <div className="lg:col-span-7 flex flex-col items-start text-left z-10">
-            
+
             {/* Status indicator */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-300 text-xs sm:text-sm font-mono font-medium mb-8 backdrop-blur-sm shadow-sm">
               <span className="relative flex h-2.5 w-2.5">
@@ -159,14 +159,14 @@ export const Hero: React.FC = () => {
           {/* Desktop Right Column: Profile Portrait Frame */}
           <div className="hidden lg:flex lg:col-span-5 justify-end z-10">
             <div className="relative w-full max-w-md">
-              
+
               {/* Ambient Glow behind the photo */}
               <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500/20 via-violet-500/20 to-cyan-500/20 rounded-3xl blur-2xl opacity-75 animate-pulse-subtle" />
 
               {/* Main Portrait Card */}
               <div className="relative rounded-3xl p-2 bg-gradient-to-b from-white/15 via-white/5 to-white/10 shadow-2xl backdrop-blur-xl border border-white/10">
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-[#0E0E12]">
-                  
+
                   {/* Actual Photo */}
                   <img
                     src={profilePhoto}
